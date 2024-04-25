@@ -15,8 +15,21 @@ En este proyecto se brinda un ejemplo de la forma de implementar una red neurona
     ```bash
     cd demo_cnn
     ```
+   
+3. Crea y activa un entorno virtual:
 
-3. Instala las dependencias utilizando pip:
+    ```bash
+    # Para crear el entorno virtual
+    python -m venv venv  # Para Python 3.x
+    # o
+    virtualenv venv  # Para Python 2.x
+
+    # Para activar el entorno virtual
+    source venv/bin/activate  # Para Linux/Mac
+    # o
+    venv\Scripts\activate  # Para Windows
+
+4. Instala las dependencias utilizando pip:
 
     ```bash
     pip install -r requirements.txt
